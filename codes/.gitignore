@@ -1,0 +1,28 @@
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Local environments and editor files
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# User-provided datasets, generated features, results, and model weights
+/data/
+/models/
+/outputs/
+/tmp/
+
+# Common model and array artifacts outside the standard output directories
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
