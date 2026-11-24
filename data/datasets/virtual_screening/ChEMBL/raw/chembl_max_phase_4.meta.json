@@ -1,0 +1,7 @@
+{
+  "download_complete": true,
+  "max_phase": 4,
+  "record_count": 4225,
+  "source": "https://www.ebi.ac.uk/chembl/api/data/molecule.json",
+  "note": "cached snapshot to make screening fully reproducible"
+}

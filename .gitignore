@@ -1,0 +1,30 @@
+# Python/editor caches
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.DS_Store
+Thumbs.db
+
+# Local archive of superseded scripts; the public code lives in ./codes.
+codes_old/
+
+# Research datasets, generated embeddings, screening outputs, and model weights
+# are intentionally not committed. Directory placeholders remain visible.
+data/datasets/**/*
+!data/datasets/**/
+!data/datasets/**/.gitkeep
+
+data/embedding/**/*
+!data/embedding/**/
+!data/embedding/**/.gitkeep
+
+data/docking_results/**/*
+!data/docking_results/**/
+!data/docking_results/**/.gitkeep
+
+models/**/*
+!models/**/
+!models/**/.gitkeep
